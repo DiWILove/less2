@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+.title{
+    margin: 25px 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.grocery-title, .fruits-title, .milk-title, .comment-title{
+    margin: 0 0 15px 35px;
+    font-size: 25px;
+}
+.checkbox-unit{
+    margin: 0 10px 10px 37px ;
+}
+.glocery-unit, .date-label{
+    font-size: 20px;
+}
+.fruits, .grocery, .milk, .comment, .date, .button{
+    margin-bottom: 20px;
+}
+.fruits-units, .date-field{
+    border: 0 none;
+}
+.fruits-unit{
+    border-radius: 6px;
+    margin: 0 10px 12px 35px;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.fruits-unit:focus{
+    border-color: #000;
+}
+.fruits-weight:focus{
+    border-color: #000;
+}
+.fruits-weight {
+    margin: 0 10px 0 0;
+    font-size: 18px;
+    text-align: end;
+    border-radius: 6px;
+}
+.milk-list{
+    margin: 0 0 10px 35px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.milk-unit{
+    margin: 0 10px 10px 37px;
+    font-size: 20px;
+}
+.milk-label{
+    font-size: 18px;
+}
+.comment-text:focus{
+    border-color: #000;
+}
+.comment-text{
+    margin: 0 0 20px 36px;
+    padding: 15px 0 0 15px;
+    font-size: 18px;
+    resize:vertical ;
+    min-height:110px ;
+    width: 622px;
+    border-radius: 6px;
+}
+.date-label{
+    margin: 0 20px 0 45px;
+
+}
+.date-input{
+    font-size: 18px;
+    text-align: center;
+    border-radius: 6px;
+}
+.button{
+    margin-left: 45px;
+    font-size: 20px;
+    padding: 15px 35px;
+    border-radius: 20px;
+}
+fieldset{
+    border-radius: 15px;
+}

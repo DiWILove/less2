@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Список покупок</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Список покупок</h1>
+    <form action="#">
+        <div class="fruits">
+            <fieldset>
+                <legend class="fruits-title">Фрукты</legend>
+                <fieldset class="fruits-units">
+                    <label for="fruit-unit1"></label>
+                      <input id="fruit-unit1" type="text" name="name" class="fruits-unit" placeholder="Наименование">
+                    <input id="weight1" type="number" name="weight" min="0.1" max="99" class="fruits-weight">
+                      <label for="weight1">кг.</label>
+                </fieldset>
+                <fieldset class="fruits-units">
+                    <label for="fruit-unit2" ></label>
+                      <input id="fruit-unit2" type="text" name="name" class="fruits-unit" placeholder="Наименование">
+                    <input id="weight2" type="number" name="weight" min="0.1" max="99" class="fruits-weight">
+                      <label for="weight2">кг.</label>
+                </fieldset>
+                <fieldset class="fruits-units">
+                    <label for="fruit-unit3"></label>
+                      <input id="fruit-unit3" type="text" name="name" class="fruits-unit" placeholder="Наименование">
+                    <input id="weight3" type="number" name="weight" min="0.1" max="99" class="fruits-weight">
+                      <label for="weight3">кг.</label>
+                </fieldset>
+        </fieldset>
+    </div>
+        <div class="grocery">
+        <fieldset>
+            <legend class="grocery-title">
+                Бакалея
+            </legend>
+            <input id="pasta" type="checkbox" name="grocery" value="Макароны" class="checkbox-unit" checked>
+              <label for="pasta" class="glocery-unit">Макароны</label> <br>
+            <input id="rice" type="checkbox" name="grocery" value="Рис" class="checkbox-unit">
+              <label for="rice" class="glocery-unit">Рис</label><br>
+            <input id="buckwheat" type="checkbox" name="grocery" value="Греча" class="checkbox-unit" checked>
+              <label for="buckwheat" class="glocery-unit">Греча</label><br>
+            <input id="oatmeal" type="checkbox" name="grocery" value="Овсянка" class="checkbox-unit">
+              <label for="oatmeal" class="glocery-unit">Овсянка</label><br>
+            <input id="bulgur" type="checkbox" name="grocery" value="Булгур" class="checkbox-unit">
+              <label for="bulgur" class="glocery-unit">Булгур</label>
+        </fieldset>
+        </div>
+        <div class="milk">
+            <fieldset class="milk-prod">
+                <legend class="milk-title">Молочные продукты</legend>
+                <select name="milk-list" class="milk-list">
+                    <option value="milk" selected>Молоко</option>
+                    <option value="kefir">Кефир</option>
+                </select><br>
+                <input id="1%" type="radio" name="fat-content" value="1%" checked class="milk-unit">
+                <label for="1%" class="milk-label">1%</label><br>
+                <input id="2.5%" type="radio" name="fat-content" value="2.5%" class="milk-unit">
+                <label for="2.5%" class="milk-label">2.5%</label> <br>
+                <input id="3.2%" type="radio" name="fat-content" value="3.2%" class="milk-unit">
+                <label for="3.2%" class="milk-label">3.2%</label>
+            </fieldset>
+        </div>
+        <div class="comment">
+            <fieldset>
+                <legend class="comment-title">
+                    Коментарий
+                </legend>
+                <textarea id="comment" name="comment" class="comment-text" placeholder="Дополнения к списку"></textarea>
+            </fieldset>
+        </div>
+        <div class="date">
+            <fieldset class="date-field">
+                <label for="date" class="date-label">Дата</label>
+                <input id="date" type="date" name="date" class="date-input">
+            </fieldset>
+        </div>
+        <button type="submit" class="button">
+        Отправить
+    </button>
+    </form>
+</div>
+</body>
+</html>
